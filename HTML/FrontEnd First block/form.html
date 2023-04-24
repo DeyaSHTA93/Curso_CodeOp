@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercici 2: Formulari d'usuari</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+      label {
+        display: block;
+        padding: 10px;
+      }
+      a{
+        text-decoration: none;
+        font-size: 3em;
+      }
+     footer{
+        text-align: center;
+      }
+      .back {
+  text-decoration: none;
+}
+.back:hover {
+  background-color: orange;
+}
+    </style>
+  </head>
+  <body>
+    <h1>Activity 2: Form 📋</h1>
+    <div class="row">
+      <form>
+        Let's get to know each other!
+        <div>
+          <label for="name"> What's your name? </label>
+          <input type="text" placeholder="Type your name here" autofocus="on" />
+          <label for="age"> Age? </label>
+          <input type="number" placeholder="Type your age here" />
+          <label for="describe"> Describe yourself in three words. </label>
+          <input type="text" />
+          <label for="morning"> Choose your morning drink. </label>
+          <ul style="list-style: none">
+            <li><input type="radio" />Chai</li>
+            <li><input type="radio" />Coffee</li>
+            <li><input type="radio" />Matcha</li>
+            <li><input type="radio" />Water</li>
+          </ul>
+        </div>
+        <button type="submit">Save 🔐</button>
+      </form>
+    </div>
+    
+    <footer class="back"> 
+        <a href="profile.html"> 
+        🔙 
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

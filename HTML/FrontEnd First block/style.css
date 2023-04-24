@@ -1,0 +1,30 @@
+body {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+.underline {
+  color: black;
+  text-decoration: none;
+}
+.underline:hover {
+  color: orange;
+}
+.form {
+  background-color: orange;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 20px;
+  font-size: larger;
+}
+.form:hover {
+  color: orange;
+  background-color: black;
+}
+.footnote {
+  font-style: italic;
+  color: grey;
+}
